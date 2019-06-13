@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search View Controller-->
+        <!--Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SearchViewController" customModule="StoreSearch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Search" customClass="SearchViewController" customModule="StoreSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,11 +74,54 @@
                         <outlet property="searchBar" destination="UeA-2L-XPL" id="pq8-LL-Su1"/>
                         <outlet property="segmentedControl" destination="fhx-nd-PFw" id="kNK-mn-urq"/>
                         <outlet property="tableView" destination="lQ6-jh-IDd" id="s8c-Gm-fiE"/>
+                        <segue destination="T9d-sM-Q5y" kind="presentation" identifier="ShowDetail" id="eDZ-fK-CCm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.75" y="137.32394366197184"/>
         </scene>
+        <!--Detail-->
+        <scene sceneID="wPa-IS-WJV">
+            <objects>
+                <viewController id="T9d-sM-Q5y" userLabel="Detail" customClass="DetailViewController" customModule="StoreSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zH9-j7-tw2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-Ow-AGL" userLabel="Pop-up View">
+                                <rect key="frame" x="40" y="164" width="240" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-fy-jF7" userLabel="Close Button">
+                                        <rect key="frame" x="4" y="4" width="15" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="CloseButton"/>
+                                        <connections>
+                                            <action selector="close" destination="T9d-sM-Q5y" eventType="touchUpInside" id="jGA-qz-0Lq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.94999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="4Sh-BO-9Lh"/>
+                                    <constraint firstAttribute="width" constant="240" id="JwM-ql-YnC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IpF-Ow-AGL" firstAttribute="centerX" secondItem="zH9-j7-tw2" secondAttribute="centerX" id="TMh-kh-RHs"/>
+                            <constraint firstItem="IpF-Ow-AGL" firstAttribute="centerY" secondItem="zH9-j7-tw2" secondAttribute="centerY" id="lil-jw-AkG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xoh-2d-VwI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqQ-AZ-DR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="137"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="CloseButton" width="15" height="15"/>
+    </resources>
 </document>
