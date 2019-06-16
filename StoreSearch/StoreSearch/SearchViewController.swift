@@ -133,7 +133,9 @@ extension SearchViewController: UISearchBarDelegate {
                         return
                     }
                 } else {
-                    print("Failure! \(response!)")
+                    if let response = response {
+                        print("Failure! \(response)")
+                    }
                 }
                 
                 DispatchQueue.main.async {
