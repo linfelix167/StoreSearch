@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A00637EF22ADD28D00307035 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00637EE22ADD28D00307035 /* LoadingCell.xib */; };
+		A089EDB022B769220078D4B1 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A089EDAF22B769220078D4B1 /* LandscapeViewController.swift */; };
 		A09D03A922A8A83D00F2F483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D03A822A8A83D00F2F483 /* AppDelegate.swift */; };
 		A09D03AB22A8A83D00F2F483 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D03AA22A8A83D00F2F483 /* SearchViewController.swift */; };
 		A09D03AE22A8A83D00F2F483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09D03AC22A8A83D00F2F483 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		A00637EE22ADD28D00307035 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		A089EDAF22B769220078D4B1 /* LandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
 		A09D03A522A8A83D00F2F483 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09D03A822A8A83D00F2F483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A09D03AA22A8A83D00F2F483 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				A09D03A822A8A83D00F2F483 /* AppDelegate.swift */,
 				A09D03AA22A8A83D00F2F483 /* SearchViewController.swift */,
 				A0D9C43F22B242650014E7AA /* DetailViewController.swift */,
+				A089EDAF22B769220078D4B1 /* LandscapeViewController.swift */,
 				A0A0736E22B6335F00178150 /* BounceAnimationController.swift */,
 				A0A0737022B63D1200178150 /* SlideOutAnimationController.swift */,
 				A0A0736C22B6236400178150 /* GradientView.swift */,
@@ -172,6 +175,7 @@
 				A09D03BB22A8ADA800F2F483 /* SearchResult.swift in Sources */,
 				A0E4615622A8FF26004EFAE5 /* SearchResultCell.swift in Sources */,
 				A0A0736F22B6335F00178150 /* BounceAnimationController.swift in Sources */,
+				A089EDB022B769220078D4B1 /* LandscapeViewController.swift in Sources */,
 				A0D9C44022B242650014E7AA /* DetailViewController.swift in Sources */,
 				A09D03A922A8A83D00F2F483 /* AppDelegate.swift in Sources */,
 				A0A0736D22B6236400178150 /* GradientView.swift in Sources */,
