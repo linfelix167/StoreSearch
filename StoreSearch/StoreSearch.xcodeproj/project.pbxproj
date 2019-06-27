@@ -24,6 +24,7 @@
 		A0E4615422A8FC29004EFAE5 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */; };
 		A0E4615622A8FF26004EFAE5 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */; };
 		A0E4615822A90130004EFAE5 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */; };
+		C2D5AF2922C58005006EDDE6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5AF2822C58005006EDDE6 /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		C2D5AF2822C58005006EDDE6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				A0A0736C22B6236400178150 /* GradientView.swift */,
 				A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */,
 				A09D03BA22A8ADA800F2F483 /* SearchResult.swift */,
+				C2D5AF2822C58005006EDDE6 /* Search.swift */,
 				A09D03AC22A8A83D00F2F483 /* Main.storyboard */,
 				A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */,
 				A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D5AF2922C58005006EDDE6 /* Search.swift in Sources */,
 				A09D03AB22A8A83D00F2F483 /* SearchViewController.swift in Sources */,
 				A0D9C44222B2460D0014E7AA /* DimmingPresentationController.swift in Sources */,
 				A06B7DAC22B8CD1B00470062 /* FadeOutAnimationController.swift in Sources */,
