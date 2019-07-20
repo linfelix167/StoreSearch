@@ -23,7 +23,7 @@
 		A0D9C44222B2460D0014E7AA /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9C44122B2460D0014E7AA /* DimmingPresentationController.swift */; };
 		A0E4615422A8FC29004EFAE5 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */; };
 		A0E4615622A8FF26004EFAE5 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */; };
-		A0E4615822A90130004EFAE5 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */; };
+		C25CB86822E3DEA300F8BC27 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */; };
 		C2D5AF2922C58005006EDDE6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5AF2822C58005006EDDE6 /* Search.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		A0D9C44122B2460D0014E7AA /* DimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
 		A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
-		A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		C25CB86922E3DEA300F8BC27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NothingFoundCell.xib; sourceTree = "<group>"; };
 		C2D5AF2822C58005006EDDE6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 				C2D5AF2822C58005006EDDE6 /* Search.swift */,
 				A09D03AC22A8A83D00F2F483 /* Main.storyboard */,
 				A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */,
-				A0E4615722A90130004EFAE5 /* NothingFoundCell.xib */,
+				C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */,
 				A00637EE22ADD28D00307035 /* LoadingCell.xib */,
 				A09D03AF22A8A83E00F2F483 /* Assets.xcassets */,
 				A09D03B422A8A83E00F2F483 /* Info.plist */,
@@ -180,7 +180,7 @@
 				A09D03B022A8A83E00F2F483 /* Assets.xcassets in Resources */,
 				A00637EF22ADD28D00307035 /* LoadingCell.xib in Resources */,
 				A0E4615422A8FC29004EFAE5 /* SearchResultCell.xib in Resources */,
-				A0E4615822A90130004EFAE5 /* NothingFoundCell.xib in Resources */,
+				C25CB86822E3DEA300F8BC27 /* NothingFoundCell.xib in Resources */,
 				A09D03AE22A8A83D00F2F483 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +217,14 @@
 				A09D03AD22A8A83D00F2F483 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25CB86922E3DEA300F8BC27 /* en */,
+			);
+			name = NothingFoundCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
