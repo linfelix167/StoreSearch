@@ -25,6 +25,7 @@
 		C25CB86822E3DEA300F8BC27 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */; };
 		C28F510E22E3F6FC002AA9E2 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28F511022E3F6FC002AA9E2 /* LoadingCell.xib */; };
 		C2D5AF2922C58005006EDDE6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5AF2822C58005006EDDE6 /* Search.swift */; };
+		C2FC77FA22E52DD200BED3E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2FC77FC22E52DD200BED3E5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		C28F510F22E3F6FC002AA9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoadingCell.xib; sourceTree = "<group>"; };
 		C28F511222E3F70F002AA9E2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LoadingCell.strings; sourceTree = "<group>"; };
 		C2D5AF2822C58005006EDDE6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		C2FC77FB22E52DD200BED3E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2FC77FD22E5304600BED3E5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,25 +86,10 @@
 		A09D03A722A8A83D00F2F483 /* StoreSearch */ = {
 			isa = PBXGroup;
 			children = (
-				C2ABBE6E22E2439500B34E82 /* View */,
-				C2ABBE6D22E2438000B34E82 /* Controller */,
 				A09D03A822A8A83D00F2F483 /* AppDelegate.swift */,
 				A0E4615522A8FF26004EFAE5 /* SearchResultCell.swift */,
 				A09D03BA22A8ADA800F2F483 /* SearchResult.swift */,
 				C2D5AF2822C58005006EDDE6 /* Search.swift */,
-				A09D03AC22A8A83D00F2F483 /* Main.storyboard */,
-				A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */,
-				C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */,
-				C28F511022E3F6FC002AA9E2 /* LoadingCell.xib */,
-				A09D03AF22A8A83E00F2F483 /* Assets.xcassets */,
-				A09D03B422A8A83E00F2F483 /* Info.plist */,
-			);
-			path = StoreSearch;
-			sourceTree = "<group>";
-		};
-		C2ABBE6D22E2438000B34E82 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				A09D03AA22A8A83D00F2F483 /* SearchViewController.swift */,
 				A0D9C43F22B242650014E7AA /* DetailViewController.swift */,
 				A089EDAF22B769220078D4B1 /* LandscapeViewController.swift */,
@@ -109,17 +97,17 @@
 				A0A0737022B63D1200178150 /* SlideOutAnimationController.swift */,
 				A06B7DAB22B8CD1B00470062 /* FadeOutAnimationController.swift */,
 				A0D9C44122B2460D0014E7AA /* DimmingPresentationController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C2ABBE6E22E2439500B34E82 /* View */ = {
-			isa = PBXGroup;
-			children = (
 				A0C3039022B0DC3B001A5F21 /* UIImageView+DownloadImage.swift */,
 				A0A0736C22B6236400178150 /* GradientView.swift */,
+				A09D03AC22A8A83D00F2F483 /* Main.storyboard */,
+				A0E4615322A8FC29004EFAE5 /* SearchResultCell.xib */,
+				C25CB86A22E3DEA300F8BC27 /* NothingFoundCell.xib */,
+				C28F511022E3F6FC002AA9E2 /* LoadingCell.xib */,
+				A09D03AF22A8A83E00F2F483 /* Assets.xcassets */,
+				A09D03B422A8A83E00F2F483 /* Info.plist */,
+				C2FC77FC22E52DD200BED3E5 /* Localizable.strings */,
 			);
-			path = View;
+			path = StoreSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09D03B022A8A83E00F2F483 /* Assets.xcassets in Resources */,
+				C2FC77FA22E52DD200BED3E5 /* Localizable.strings in Resources */,
 				C28F510E22E3F6FC002AA9E2 /* LoadingCell.xib in Resources */,
 				A0E4615422A8FC29004EFAE5 /* SearchResultCell.xib in Resources */,
 				C25CB86822E3DEA300F8BC27 /* NothingFoundCell.xib in Resources */,
@@ -240,6 +229,15 @@
 				C28F511222E3F70F002AA9E2 /* nl */,
 			);
 			name = LoadingCell.xib;
+			sourceTree = "<group>";
+		};
+		C2FC77FC22E52DD200BED3E5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FC77FB22E52DD200BED3E5 /* en */,
+				C2FC77FD22E5304600BED3E5 /* nl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -40,7 +40,8 @@ class SearchResultCell: UITableViewCell {
     func configure(for result: SearchResult) {
         nameLabel.text = result.name
         if result.artist.isEmpty {
-            artistNameLabel.text = "Unknown"
+            artistNameLabel.text = NSLocalizedString("Unknown",
+                                                     comment: "Localized kind: Unknown")
         } else {
             artistNameLabel.text = String(format: "%@ (%@)", result.artist, result.type)
         }
