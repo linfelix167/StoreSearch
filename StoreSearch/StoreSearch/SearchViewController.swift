@@ -49,6 +49,8 @@ class SearchViewController: UIViewController {
         tableView.register(cellNib, forCellReuseIdentifier: TableView.CellIdentifiers.loadingCell)
         
         searchBar.becomeFirstResponder()
+        
+        title = NSLocalizedString("Search", comment: "split view master button")
     }
     
     override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
